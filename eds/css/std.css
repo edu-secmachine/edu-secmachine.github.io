@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/*
+ * css by itzuken.xyz
+*/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and ( min-device-pixel-ratio: 1.25),
+only screen and ( min-resolution: 200dpi),
+only screen and ( min-resolution: 1.25dppx)
+{
+  -webkit-font-smoothing: subpixel-antialiased;
+  -xoxwebkit-font-smoothing: antialiased;
+}
+
+html[data-useragent*='MSIE'] .iex {}
+
+.anchor {
+  position: relative;
+  display: block;
+  /* display: inline-block; */
+  xtop: -75px;
+  xtop: -25px;
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.strip-padded {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.space-above {
+  margin-top: 30px;
+}
+
+.space-above-double {
+  margin-top: 50px;
+}
+
+.space-below {
+  margin-bottom: 30px;
+}
+
+.space-below-double {
+  margin-bottom: 60px;
+}
+
+.space-left {
+  margin-left: 20px;
+}
+
+.space-right {
+  margin-right: 20px;
+}
+
+.space-right-double {
+  margin-right: 40px;
+}
+
+.space-left-double {
+  margin-left: 40px;
+}
+
+.padded-above {
+  padding-top: 30px;
+}
+
+.padded-above-double {
+  padding-top: 60px;
+}
+
+.padded-below {
+  padding-bottom: 30px;
+}
+
+.padded-below-double {
+  padding-bottom: 60px;
+}
+
+.padded-left {
+  padding-left: 20px;
+}
+
+.padded-right {
+  padding-right: 20px;
+}
+
+.padded-left-double {
+  padding-left: 40px;
+}
+
+
+/*!
+  by: cskelly
+  http://www.bootply.com/126437
+*/
+
+.row-flex, .row-flex > div[class*='col-'] {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex:1 1 auto;
+}
+
+.row-flex-wrap {
+	-webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  flex:0;
+}
+
+.row-flex > div[class*='col-'] {
+  margin:-.2px; /* hack adjust for wrapping */
+}
+
+.row-flex > div[class*='col-'] div {
+	width:100%;
+}
+
+.flex-col {
+  display: flex;
+  display: -webkit-flex;
+  flex: 1 100%;
+	flex-flow: column nowrap;
+}
+
+.flex-grow {
+	display: flex;
+  -webkit-flex: 2;
+  flex: 2;
+}
+
+
+@media (max-width:1200px) {}
+
+@media (max-width:991px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:668px) {}
+
+@media (max-width:640px) {}
+
+@media (max-width:375px) {}
+
+@media (max-height:720px) and (orientation:landscape) {}
+
+@media (max-height:850px) and (orientation:landscape) {}
